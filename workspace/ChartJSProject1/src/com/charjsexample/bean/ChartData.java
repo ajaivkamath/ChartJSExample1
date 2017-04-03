@@ -4,7 +4,7 @@ package com.charjsexample.bean;
 public class ChartData {
 
 	private ChartDataSets[] datasets;
-	private Object[] label;
+	private Object[] labels;
 	private ChartOptions options;
 	/**
 	 * @return the datasets
@@ -21,14 +21,14 @@ public class ChartData {
 	/**
 	 * @return the label
 	 */
-	public Object[] getLabel() {
-		return label;
+	public Object[] getLabels() {
+		return labels;
 	}
 	/**
 	 * @param label the label to set
 	 */
-	public void setLabel(Object[] label) {
-		this.label = label;
+	public void setLabel(Object[] labels) {
+		this.labels = labels;
 	}
 	/**
 	 * @return the options
