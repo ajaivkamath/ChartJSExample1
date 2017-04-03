@@ -35,17 +35,8 @@
        			  var json = JSON.parse(str);
         		  console.log(json);
 
-        		  var labelRec = [];
-        		  
-        		  for (var i in json.label)
-       			  {
-            		  labelRec.push(json.label[i]);
-       			  }
-        		  var dataRec = [];
-        		  for (var i in json.data[0])
-       			  {
-        			  dataRec.push(json.data[0][i]);
-       			  }
+        		  var labelRec = json.label; 
+        		  var dataRec = json.data;
 
         		  console.log(labelRec);
         		  console.log(dataRec);

@@ -8,7 +8,7 @@
 	<session-factory>
 
 		<property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
-		<property name="hibernate.connection.url">jdbc:hsqldb:hsql://localhost</property>
+		<property name="hibernate.connection.url">jdbc:hsqldb:mem:.</property>
 		<property name="hibernate.connection.username">sa</property>
 		<property name="connection.password"></property>
 		<property name="connection.pool_size">1</property>
