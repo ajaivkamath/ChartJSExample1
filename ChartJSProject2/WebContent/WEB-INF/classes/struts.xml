@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+<struts>  
+
+	<package name="default" extends="struts-default">  
+	  
+		<action name="registerProcess" class="com.myproject.mymodule.MyActionClass" method="registerProcess">  
+			<result name="SUCCESS">login.jsp</result>  
+			<result name="FAILURE">register.jsp</result>
+		</action>  
+
+		<action name="showUserList" class="com.myproject.mymodule.MyActionClass" method="userListPrint">  
+			<result name="SUCCESS">userlist.jsp</result>  
+		</action>  
+
+
+		<action name="loginProcess" class="com.myproject.mymodule.MyActionClass" method="loginProcess">  
+			<result name="SUCCESS">menu.jsp</result>  
+			<result name="FAILURE">login.jsp</result>
+		</action>  
+
+
+	  
+	</package>  
+</struts>   
