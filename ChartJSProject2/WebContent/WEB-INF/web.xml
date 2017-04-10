@@ -7,7 +7,11 @@
  
 	  <display-name>MyHibernateProject1</display-name>
 	  <welcome-file-list>
+<<<<<<< HEAD
 	    <welcome-file>\index.jsp</welcome-file>
+=======
+	    <welcome-file>index.jsp</welcome-file>
+>>>>>>> refs/remotes/origin/master
 	  </welcome-file-list> 
  
     <filter>
